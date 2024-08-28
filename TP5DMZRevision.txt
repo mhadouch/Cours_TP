@@ -1,0 +1,20 @@
+1) On autorise la REPONSE de ping depuis n'importe quelle machine du reseau vers n'importe quelle machine 
+2) On autorise la REQUETE de ping depuis n'importe quelle machine du reseau vers toute les machines du reseaux 10.0.0.0
+3) On autorise les requetes Web HTTP depuis n'importe quelle machine du reseau vers le serveur Web
+4) On assigne une liste de filtrage a une interface, qui va controler les passages a l'entree du routeur.
+5) On autorise les requetes DNS depuis n'importe quelle machine du reseau vers le serveur DNS
+6) On autorise les requetes Web HTTP depuis une machine du reseau vers le serveur Web
+
+
+1) On permet a tout les reseaux et machines presentes dans la liste d'etre traduite d'une ip privee en ip public
+	l'ip public qui sera sur l'interface fa1/0 et qui sera surchargee, permet la translation de plusieurs
+	ip privee en une ip public avec pour pour difference les ports
+2) On translate uniquement en ip public les reponses venant du serveur Web quand ce sont des requettes HTTP 
+3) On supprime l'ACE ayant pour numero le 10 dans la liste 1
+
+
+1) Global inside: adresse IP public sur notre Box par exemple. C'est notre IP qui est visible de tous.
+2) Local inside: adresse IP privee dans un de nos reseaux. Elle reste inconnue au monde exterieur.
+3) Global outside: adresse IP public a laquelle nous allons envoyer nos requettes pour des services. Par exemple 8.8.8.8 
+	pour le DNS google. C'est l'IP qui va etre connu de tous mais qui n'est pas a nous.
+4) Local outside: Adresse IP privee des entitees externe a nos reseaux. Uniquement le proprietaire peut connaitre ces adresses IP. 

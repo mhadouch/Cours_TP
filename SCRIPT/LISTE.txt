@@ -1,0 +1,8 @@
+PRENOM;NOM;AGE
+Gilles;ROMAIN;30 ans
+Louis;BOBIN;28 ans
+Michel;ROUQUET;40 ans
+Elodie;JOULIN;20 ans
+Marianne;PERNAUD;18 ans
+Adele;HUGON;29 ans
+Alain;MOUSSET;37 ans

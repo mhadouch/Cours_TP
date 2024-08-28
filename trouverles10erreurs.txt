@@ -1,0 +1,10 @@
+1.dans la config reseau acceuil : mauvais DNS
+2.le service DHCP est off sur le serv DHCP
+3.mauvais mask sur la config reseaux Atelier
+4.default gateway sur le DNS est la mauvaise 
+5.agent de relaise sur le router1 envois vers le DNS et non le DHCP
+6.la route vers le reseau 192.168.2.0 sur le router0 n'a pas le bon next hop
+7.agent de relais sur le router2 sur la mauvaise interface
+8.les ip des interfaces du router2 ont etaient inversees
+9.adresse ip de l'interface fa0/1 du router3 n'est pas bonne
+10.le masque de l'ip de l'interface fa0/1 du router1 n'est pas bon

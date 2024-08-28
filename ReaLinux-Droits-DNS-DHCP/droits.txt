@@ -1,0 +1,132 @@
+.:
+total 48
+drwxr-xr-x 2 aiden    aiden    4096 15 juil. 09:43 aiden
+drwxr-xr-x 2 daniel   daniel   4096 15 juil. 09:43 daniel
+-rw-r--r-- 1 root     root        0 15 juil. 10:45 droits.txt
+drwxr-xr-x 2 eliza    eliza    4096 15 juil. 09:43 eliza
+drwxr-xr-x 2 jack     jack     4096 15 juil. 09:42 jack
+drwxr-xr-x 2 john     john     4096 15 juil. 09:43 john
+drwx------ 3 mohamed  mohamed  4096 15 juil. 09:40 mohamed
+drwxrwxr-x 5 jack     jack     4096 15 juil. 10:00 partage
+drwxr-xr-x 2 rodney   rodney   4096 15 juil. 09:43 rodney
+drwxr-xr-x 2 samantha samantha 4096 15 juil. 09:43 samantha
+drwxr-xr-x 2 tealc    tealc    4096 15 juil. 09:43 tealc
+drwxr-xr-x 2 teyla    teyla    4096 15 juil. 09:43 teyla
+drwxr-xr-x 2 vala     vala     4096 15 juil. 09:50 vala
+
+./aiden:
+total 0
+
+./daniel:
+total 0
+
+./eliza:
+total 0
+
+./jack:
+total 0
+
+./john:
+total 0
+
+./mohamed:
+total 0
+
+./partage:
+total 12
+drwxr-x--- 4 jack    administration 4096 15 juil. 10:00 administration
+-rwxrwxr-x 1 jack    jack              0 15 juil. 10:00 docpartage
+drwxrwx--- 2 mohamed mohamed        4096 15 juil. 10:02 informatique
+drwxr-x--- 7 daniel  technique      4096 15 juil. 10:07 technique
+
+./partage/administration:
+total 8
+drwxr-x--- 4 jack     administration 4096 15 juil. 10:01 direction
+-rwxr-x--- 1 jack     administration    0 15 juil. 10:00 docadmin
+drwxr-x--- 2 samantha administration 4096 15 juil. 10:02 rh
+
+./partage/administration/direction:
+total 8
+drwxrwx--- 2 jack direction      4096 15 juil. 10:01 assistante
+drwxrwx--- 2 jack direction      4096 15 juil. 10:01 directeur
+-rwxr-x--- 1 jack administration    0 15 juil. 10:01 docdirection
+
+./partage/administration/direction/assistante:
+total 0
+-rwxrwx--- 1 jack direction 0 15 juil. 10:01 docassit
+
+./partage/administration/direction/directeur:
+total 0
+-rwxrwx--- 1 jack direction 0 15 juil. 10:01 docdirecteur
+
+./partage/administration/rh:
+total 0
+-rwxr-x--- 1 samantha administration 0 15 juil. 10:02 docrh
+
+./partage/informatique:
+total 0
+-rwxrwx--- 1 mohamed mohamed 0 15 juil. 10:02 docinfo
+
+./partage/technique:
+total 20
+drwxrwx--- 2 daniel technique   4096 15 juil. 10:03 commun
+-rwxrwx--- 1 daniel technique      0 15 juil. 10:03 doctech
+drwxrwx--- 2 daniel maquettiste 4096 15 juil. 10:04 maquettes
+drwxrwx--- 2 daniel dessinateur 4096 15 juil. 10:04 plans
+drwxrwx--- 4 daniel ingenieur   4096 15 juil. 10:06 prototypes
+drwxr-x--- 2 daniel technique   4096 15 juil. 10:08 responsable
+
+./partage/technique/commun:
+total 0
+-rwxrwx--- 1 daniel technique 0 15 juil. 10:03 doccommun
+
+./partage/technique/maquettes:
+total 0
+-rwxrwx--- 1 daniel maquettiste 0 15 juil. 10:04 docmaquette
+
+./partage/technique/plans:
+total 0
+-rwxrwx--- 1 daniel dessinateur 0 15 juil. 10:04 docplans
+
+./partage/technique/prototypes:
+total 8
+-rwxrwx--- 1 daniel ingenieur    0 15 juil. 10:05 docproto
+drwxrwx--- 3 daniel ingenieur 4096 15 juil. 10:06 prototype1
+drwxrwx--- 3 daniel ingenieur 4096 15 juil. 10:07 prototype2
+
+./partage/technique/prototypes/prototype1:
+total 4
+-rwxrwx--- 1 daniel ingenieur    0 15 juil. 10:05 docproto1
+drwxrwx--- 2 daniel ingenieur 4096 15 juil. 10:06 essais
+
+./partage/technique/prototypes/prototype1/essais:
+total 0
+-rwxrwx--- 1 daniel ingenieur 0 15 juil. 10:06 dosessais1
+
+./partage/technique/prototypes/prototype2:
+total 4
+-rwxrwx--- 1 daniel ingenieur    0 15 juil. 10:07 docproto2
+drwxrwx--- 2 daniel ingenieur 4096 15 juil. 10:07 essais
+
+./partage/technique/prototypes/prototype2/essais:
+total 0
+-rwxrwx--- 1 daniel ingenieur 0 15 juil. 10:07 docessais2
+
+./partage/technique/responsable:
+total 0
+-rwxr-x--- 1 daniel technique 0 15 juil. 10:08 docresponsable
+
+./rodney:
+total 0
+
+./samantha:
+total 0
+
+./tealc:
+total 0
+
+./teyla:
+total 0
+
+./vala:
+total 0
